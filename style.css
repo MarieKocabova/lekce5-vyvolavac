@@ -13,7 +13,7 @@ body {
 	justify-content: center;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
-	background: #9795f0 linear-gradient(to bottom, #9795f0 0%, #fbc8d4 100%);
+	background: #9795f0 linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
 }
 
 .obsah {
@@ -51,15 +51,17 @@ h2 {
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-#seznam {
+#seznam
+#pocet {
 	font-size: 20px;
 	color: #3b518d;
 }
 
 
+
 .tlacitko {
-	margin-top: -20px;
 	padding: 20px;
+	margin-top: -20px;
 	font-family: 'Paytone One', sans-serif;
 	font-size: 24px;
 	color: white;
@@ -69,11 +71,30 @@ h2 {
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 	outline: 0;
 }
-
 .tlacitko:hover {
 	box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
 	transform: translateY(-2px);
 }
+
+.tlacitko_restart {
+	padding: 10px;
+	margin-top: 20px;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 24px;
+	color: white;
+	border: 0;
+	border-radius: 20px;
+	background: #ff0844 linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	outline: 0;
+}
+.tlacitko_restart:hover {
+	box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+	transform: translateY(-2px);
+}
+
+
+
 
 .tlacitko:active {
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
